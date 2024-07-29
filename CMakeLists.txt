@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.22)
+
+project(multithread)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wpedantic -Werror")
+
+add_subdirectory(ch01)
+add_subdirectory(ch02)
+# add_subdirectory(ch03)
+# add_subdirectory(ch04)
+# add_subdirectory(ch05)
+# add_subdirectory(ch06)
+# add_subdirectory(ch07)
